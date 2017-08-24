@@ -1,0 +1,419 @@
+
+    body {
+        font-family: 'Open Sans', sans-serif !important;
+        font-size: 12px !important;
+        color: #777777 !important;
+    }
+
+    .row-space {
+    	margin: 10px;
+    }
+
+    h2 {
+      font-weight: normal;
+      font-size: 18px;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    button {
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    input {
+        border: 1px solid #eee;
+        height: 35px;
+        width: 335px;
+    }
+    input[type=radio] {
+        border: 1px solid #eee;
+        width: 30px;
+        height: 12px;
+    }
+
+    .container {
+      width: 480px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    #options {
+      margin: 10px 0;
+    }
+
+    .next-question {
+      margin-right: 10px;
+    }
+
+    #score {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .float-right {
+      float: right;
+    }
+
+    .home-container {
+      margin: 0 auto;
+    }
+
+    .result-set {
+      font-size: 12px;
+    }
+    .bg-container {
+      position: absolute;
+      background-image: linear-gradient(-180deg,#61488e 0,#61488e 40%,#61488e 68%,#61488e 85%,#472869 100%);
+        background-repeat: no-repeat;
+        opacity: 0.5;
+    }
+
+    @media (min-width: 1200px)
+    .container {
+        width: 1000px !important;
+    }
+
+    @media (min-width: 992px)
+    .container {
+        width: 770px !important;
+    }
+    @media (min-width: 768px)
+    .container {
+        width: 550px !important; 
+    }
+
+    /*
+    * Task
+    */
+    ul.main-ul li {
+      font-weight: bold;
+    }
+
+    .inner-1 {
+      margin-left: 11px;
+    }
+
+    .inner-2 {
+      margin-left: 11px;
+    }
+
+
+
+    input[type=date], input[type=time], input[type=datetime-local], input[type=month] {
+        line-height: 15px;
+    }
+    .drawing-study-model {
+        border: 1px solid #dde6e9;
+        margin-top: -6px;
+        padding: 15px;
+    }
+    .drawing-draw-left label {
+        width: 100%;
+        padding: 7px;
+        color: #FFF;
+        cursor: pointer;
+    }
+    .drawing-draw-left label a {
+        color: #fff;
+        cursor: pointer;
+    }
+    .drawing-draw-left a {
+        cursor: pointer;
+    }
+    .drawing-draw-left {
+        border: 1px solid #f3f3f3;
+        height: 375px;
+        padding: 11px;
+        background-color: #fffdf2;
+    }
+    .drawing-draw-center {
+        /*border: 1px solid #DDD;*/
+        height: 100%;
+        padding: 11px;
+        text-align: center;
+        height: 375px;
+    }
+    .drawing-draw-right {
+        border: 1px solid #DDD;
+        height: 375px;
+        padding: 11px;
+        z-index:101;
+    }
+    .drawing-draw {
+        border: 1px solid #DDD;
+        padding: 15px;
+    }
+    .drawing-denture {
+        border: 1px solid #DDD;
+        padding: 15px;
+        margin-bottom: 11px;
+    }
+
+    .well-xs {
+        padding: 3px 3px 2px 5px;
+        border-radius: 3px;
+    }
+
+    .drawing-stage label {
+        padding: 7px 15px;
+        border: 1px solid #dde6e9;
+        margin-top: 11px;
+        text-align: center;
+        color: #515253;
+        background-color: #edf1f2;
+    }
+
+    .drawing-stage label.active {
+        padding: 7px 15px;
+        color: #FFF;
+        color: #515253;
+        border: 1px solid #ddd;
+        border-bottom-color: #fff;
+        z-index: 1;
+        position: relative;
+        background: #fff;
+    }
+
+    .drawing-stage label.hover {
+        color: #FFF;
+        padding: 7px;
+        color: #515253;
+        border: 1px solid #ddd;
+        border-bottom-color: #fff;
+        position: relative;
+        background: #fff;
+    }
+
+    .drawing-current-stage {
+        border: 1px solid green;
+    }
+    .drawing-rest {
+        border-radius: 3px;
+        background-color: #ff7a70;
+        text-align: center;
+        border: 1px solid #D86060;
+    }
+    .drawing-clasp {
+        border-radius: 3px;
+        background-color: #73ff73;
+        text-align: center;
+        border: 1px solid #62D362;
+    }
+    .drawing-connector {
+        border-radius: 3px;
+        background-color: #21B2D1;
+        text-align: center;
+        border: 1px solid #1E9CAD;
+    }
+
+    .drawing-rest:hover {
+        background-color: #F27875;
+        border: 1px solid #D86060;
+    }
+    .drawing-clasp:hover  {
+        background-color: #62D362;
+        border: 1px solid #62D362;
+    }
+    .drawing-connector:hover  {
+        background-color: #1E9CAD;
+        border: 1px solid #1E9CAD;
+    }
+
+    .drawing-btn-common {
+        border: 1px solid #EAEAEA;
+        border-radius: 3px;
+        background-color: #fff;
+        text-align: center;
+        margin: 0 -4px;
+    }
+
+    .color-picker-s{
+        left: -13px;
+        top: -1px;
+        position: relative;
+    }
+
+    .drawing-padding{
+        padding: 5px 11px;
+    }
+
+    .drawing-btn-tools {
+      background: -webkit-linear-gradient(#ffffff, #fff897);
+      border: 1px solid #fffc9a;
+    }
+
+    .drawing-btn-tools:hover {
+      background: -webkit-linear-gradient(#fff897, #fff897);
+      border: 1px solid #fffc9a;
+    }
+
+    .drawing-btn-tools:active {
+      background: -webkit-linear-gradient(#fff897, #fff897);
+      border: 1px solid #fffc9a;
+    }
+
+    .padding-left-1{
+        padding-left: 3px;
+    }
+
+    .padding-right-1{
+        padding-right: 3px;
+    }
+
+    .drawing-text {
+        background-color: #000;
+        text-align: center;
+    }
+    .instruction-window {
+        height: 150px;
+        overflow: auto;
+    }
+    .drawing-stage-1 {
+        margin-left: 0px !important;
+    }
+    .drawing-not-for-firs-time {
+        display: block;
+    }
+    .drawing-done-div {
+        text-align: center;
+    }
+    .drawing-done {
+        margin: 11px;
+    }
+
+    .drawing-margin-0{
+        margin-bottom: 0;
+    }
+
+    .drawing-margin-5{
+        margin-top: -5px;
+    }
+
+    .drawing-margin-10{
+        margin-bottom: 5px;
+    }
+
+    .canvas-inner {
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+        cursor: crosshair;
+        zoom: 100%;
+        opacity: 1;
+    }
+
+    .order-for-stage{
+        margin-bottom: -12px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    @media(max-width:1200px) {
+        .canvas-box {
+            /*margin: 0 50px;*/
+        }
+        .canvas-inner {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    input[type=checkbox]:disabled{
+        opacity: 0;
+    }
+
+    @media(max-width:1200px) {
+        .drawing-draw-left {
+            height: 255px;
+        }
+        .drawing-draw-right {
+            margin-top:135px;
+        }
+    }
+
+    @media(max-width:796px) {
+        .drawing-draw-left {
+            height: auto;
+        }
+        .canvas-inner {
+            width: 75%;
+            height: auto;
+        }
+    }
+
+    .drawing-separator{
+        border-bottom: 1px solid #CDD5D8;
+        margin: 5px 0;
+    }
+
+    .icon-pencil-d,
+    .icon-color-picker-d,
+    .icon-pen-d,
+    .icon-erase-d,
+    .icon-marker-d,
+    .icon-brush-d{
+        display: inline-block !important;
+        width: 19px;
+        height: 19px;
+        background-size: 19px 19px;
+        background-repeat: no-repeat;
+        margin-bottom: -5px;
+    }
+    .icon-pencil-d {
+         background-image: url('../images/svg/multicolor/icon-pencil-d.svg');
+     }
+
+    .icon-marker-d{
+        background-image: url('../images/svg/multicolor/icon-marker-d.svg');
+    }
+
+    .icon-pen-d {
+        background-image: url('../images/svg/multicolor/icon-pen-d.svg');
+    }
+
+    .icon-brush-d {
+        background-image: url('../images/svg/multicolor/icon-brush-d.svg');
+    }
+
+    .icon-erase-d {
+        background-image: url('../images/svg/multicolor/icon-erase-d.svg');
+    }
+
+    .icon-color-picker-d {
+        background-image: url('../images/svg/multicolor/icon-color-picker-d.svg');
+    }
+
+    .moh-radio .popover{
+        width:80px;
+        height:40px;
+        padding: 0;
+        display: block;
+    }
+
+    .drawingCanvas {
+        padding: 0;
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        box-shadow: 1px 1px 5px antiquewhite;
+        background: #fff;
+    }
+
+    .mainContainerdrawing {
+        background-color: #feffc5;
+        padding: 15px;
+        margin: 25px;
+        width: 97%;
+    }

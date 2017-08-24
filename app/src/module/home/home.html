@@ -1,0 +1,53 @@
+<div class="col-md-12 col-lg-12 mainContainerdrawing" style="margin-bottom: 5px; text-align: center;" ><div class="col-md-12" id="dispMsg"></div>
+        <div class="row moh-spacing">
+        <div class="form-group">
+            <div class="col-md-12">
+                <div class="drawing-draw-left col-sm-12 col-md-12 col-lg-3">
+
+                    <div class="form-group" style="margin-bottom: -15px;">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <div class="col-xs-3 col-sm-3 col-md-4">
+                                <a id="tab-tool1" data-index="1" name="tool" title="Pencil"><label class="drawing-btn-common drawing-btn-tools"><i class="icon-pencil-d"></i></label></a>
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-4">
+                                <a id="tab-tool2" data-index="3" name="tool" title="Pen"><label class="drawing-btn-common drawing-btn-tools"><i class="icon-pen-d"></i></label></a>
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-4">
+                                <a id="tab-tool4" data-index="9" name="tool" title="Brush"><label class="drawing-btn-common drawing-btn-tools"><i class="icon-brush-d"></i></label></a>
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-4" style="margin-bottom: -10px;">
+                                <label class="color-picker-s" style="margin-top:-2px;" title="Select Color"><input type="color" id="selectColor" name="selectColor"></label>
+                            </div>
+                             <div class="col-xs-3 col-sm-3 col-md-4">
+                                <a id="eraser" name="eraser" title="Eraser"><label class="drawing-btn-common drawing-btn-tools"><i class="icon-erase-d"></i></label></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12"><div class="drawing-separator"></div></div>
+                        
+                    </div>
+                    <div class="form-group">
+                        <div class="col-xs-12 col-md-12 col-lg-12 drawing-padding">
+                            <div class="col-xs-4 col-sm-4 col-md-4 padding-left-1 padding-right-1">
+                                <button  ng-click="undoObj()" class="btn drawing-btn-tools btn-sm col-xs-12 col-sm-12 col-md-12">Undo</button>
+                            </div>
+                            <div class="col-xs-4 col-sm-4 col-md-4 padding-left-1 padding-right-1">
+                                <button ng-click="redoObj()" class="btn drawing-btn-tools btn-sm col-xs-12 col-sm-12 col-md-12">Redo</button>
+                            </div>
+                            <div class="col-xs-4 col-sm-4 col-md-4 padding-left-1 padding-right-1">
+                                <button ng-click="clearDrawing()" class="btn drawing-btn-tools btn-sm col-xs-12 col-sm-12 col-sm-12 col-md-12">Clear</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-7 drawing-draw-center canvas-box">
+                    <div style="text-align: center;">
+                        <canvas id="drawingAppCanvas" width="430" height="350" class="canvas-inner drawingCanvas drawingCanvas" style="position: absolute;z-index: 100;"></canvas>
+                        <canvas id="drawingAppCanvasBackground" width="430" height="350" class="canvas-inner drawingCanvas backgroundCanvas" style="position: absolute;"></canvas>
+                        <canvas id="drawingAppCanvasData" width="430" height="350" style="position: absolute; display: none;"></canvas>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
